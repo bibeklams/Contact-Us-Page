@@ -1,0 +1,44 @@
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 20px;
+ justify-content: center;
+  background-color: #121212;
+  color: white;
+  min-width: 220px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+.isOutline_btn{
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border: 1px solid;
+  font-size: 1rem;
+  justify-content: center;
+  padding: 12px 20px;
+  font-weight: 500;
+  margin-top: 10px;
+  border-radius: 8px;
+  min-width: 220px;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.isOutline_btn:hover{
+    transform: translateY(-2px);
+  background-color:#0056b3;
+}
